@@ -1,7 +1,5 @@
 <?php
 
-function saudacao() {
-    echo "Olá, mundo!";
+function saudacao() {echo "Olá, mundo!"
     
-
 
