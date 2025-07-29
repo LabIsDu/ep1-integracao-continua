@@ -21,4 +21,5 @@ jobs:
 
       - name: Executar Lint nos arquivos PHP
         run: |
+          set -e
           find . -type f -name "*.php" -exec php -l {} \;
